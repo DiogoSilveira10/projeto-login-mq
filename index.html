@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query Login</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="esilos/mobile.css" media="screen and (min-width:500px) and (max-width:768px)">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <main>
@@ -14,8 +18,30 @@
 
             </div>
             <div id="formulario">
-                <h1>login</h1>
+                <h1>Login</h1>
                 <p>Insira seu login para modificar seu ambiente</p>
+
+                <hr>
+
+                <form action="">
+                    <div class="demail">
+                        <label for="iemail"><span class="material-symbols-outlined">
+                            person
+                            </span></label>
+                        <input type="email" name="email" id="iemail" placeholder="  insira seu e-mail">
+                    </div>
+
+                    <div class="demail">
+                        <label for="isenha"><span class="material-symbols-outlined">
+                            vpn_key
+                            </span></label>
+                            <input type="password" name="senha" id="isenha" placeholder="  insira sua senha">
+                    </div>
+                </form>
+                <button id="botaoEntrar">Entrar</button><br>
+                <button id="botaoReset">Esqueci a senha <span id="emailIcon" class="material-symbols-outlined">
+                    mail
+                    </span> </button>
             </div>
         </section>
     </main>

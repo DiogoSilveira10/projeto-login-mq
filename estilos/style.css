@@ -5,3 +5,93 @@ paleta de cores:
 verde: #49a09d
 lilas: #5f2c82 
 */
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    
+    border-radius:20px;
+    margin:auto;
+    margin-top: 90px;
+}
+#imagem{
+    background-image: url(../imagens/imagem-predio.jpg);
+    background-position:center center;
+    background-size: cover;
+    height:200px;
+    border-radius:20px 20px 0px 0px;
+    margin:auto
+}
+#formulario > h1{
+    margin:10px
+}
+#formulario > p{
+    font-size:0.8em;
+    margin-bottom:10px
+}
+main{
+    box-shadow:0px 0px 14px rgba(0, 0, 0, 0.548);
+    text-align:center;
+    background-color: white;
+    border-radius:20px;
+    margin:auto;
+    max-width:250px;
+    
+}
+.demail{
+    border-radius:5px;
+    max-width: 210px;
+    margin:auto;
+    margin-top:5px; 
+}
+span{
+    translate:0px 6.5px;
+    color:white;
+}
+.demail > label {
+    border: 10px solid #5f2c82;
+    background-color:#5f2c82;
+    margin:0px -7px;
+    border-bottom-width:6px;
+    border-top-width:9px;
+    border-radius:5px 0px 0px 5px
+}
+.demail > input{
+    border:2px solid #5f2c82;
+}
+input{
+    height:30px;
+    border-radius:5px;
+    translate:0px -2px;
+    background-color:#49a09d79;
+    border-radius:0px 5px 5px 0px;
+    border-width: 10px 20px
+}
+button{
+    width:84%;
+    border-radius:5px;
+    border-width:0px;
+    padding:10px;
+    margin-top:5px
+
+}
+#botaoEntrar{
+    color:white;
+    background-color:#49a09d;
+
+}
+#botaoReset{
+    color:#49a09d;
+    border: 1px solid #49a09d;
+    margin-bottom:8px;
+    padding-top:5px;
+}
+#emailIcon{
+    color:#49a09d;
+    font-size:15px;
+    translate: 0px 3px;
+}
