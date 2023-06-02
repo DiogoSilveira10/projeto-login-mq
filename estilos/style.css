@@ -56,7 +56,7 @@ span{
     border: 10px solid #5f2c82;
     background-color:#5f2c82;
     margin:0px -7px;
-    border-bottom-width:6px;
+    border-bottom-width:7px;
     border-top-width:9px;
     border-radius:5px 0px 0px 5px
 }
@@ -72,11 +72,15 @@ input{
     border-width: 10px 20px
 }
 button{
-    width:84%;
+    text-align:center;
+    display:block;
+    margin: auto;
+    width:85.9%;
     border-radius:5px;
     border-width:0px;
     padding:10px;
-    margin-top:5px
+    margin-top:5px;
+    translate:-3px 0px
 
 }
 #botaoEntrar{
