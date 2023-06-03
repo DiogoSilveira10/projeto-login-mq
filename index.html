@@ -30,23 +30,36 @@
 
                 <form action="">
                     
-                        <label for="iemail"><span class="material-symbols-outlined">
-                            person
-                            </span></label>
-                        <input type="email" name="email" id="iemail" placeholder="  insira seu e-mail">
-                    
+                    <div class="campo">
 
-                    
-                        <label for="isenha"><span class="material-symbols-outlined">
+                        <span class="material-symbols-outlined">
+                            person
+                            </span>
+
+                        <input type="email" name="email" id="iemail" placeholder="  insira seu e-mail" autocomplete="email
+                        " required><label for="iemail">email</label>
+
+                    </div>
+                
+
+                
+                    <div class="campo">
+
+                        <span class="material-symbols-outlined">
                             vpn_key
-                            </span></label>
-                            <input type="password" name="senha" id="isenha" placeholder="  insira sua senha">
+                            </span>
+
+                            <input type="password" name="senha" id="isenha" placeholder="  insira sua senha" required autocomplete="current-password" minlength="8" maxlength="15">
+                            <label for="isenha">senha</label>
+
+                    </div>
                     
-                </form>
-                <button id="botaoEntrar">Entrar</button>
-                <button id="botaoReset">Esqueci a senha <span id="emailIcon" class="material-symbols-outlined">
+                    <input type="submit" value="Enviar">
+                    <a href="#" class="botao">Esqueci a senha<span id="emailIcon" class="material-symbols-outlined">
                     mail
-                    </span></button>
+                    </span></a>
+                </form>
+               
             </div>
         </section>
     </main>
