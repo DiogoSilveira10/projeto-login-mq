@@ -1,5 +1,26 @@
 @charset "UTF-8";
 
 body{
-    background-color:#5f2c82 
+    background-color:#5f2c82;
+    width:100vw;
+}
+main{
+    max-width:250px;
+    padding-bottom:5px
+}
+span{
+    border-width:5px
+}
+label{
+
+}
+.demail{
+    margin:0px;
+}
+input{
+    width:80%;
+    margin-right: -6px
+}
+button{
+    width:229px
 }
