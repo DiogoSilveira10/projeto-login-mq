@@ -13,16 +13,16 @@ lilas: #5f2c82
 }
 
 body{
-    
     border-radius:20px;
     margin:auto;
+    margin-top: 33vh;
 }
 #imagem{
     background-image: url(../imagens/imagem-predio.jpg);
     background-position:center center;
     background-size: cover;
     border-radius:20px 20px 0px 0px;
-    
+    width:100px
 }
 #formulario > h1{
     margin:10px
